@@ -23,6 +23,7 @@ public class DaemonFromFactory implements Runnable {
         ExecutorService exec = Executors.newCachedThreadPool(new DaemonThreadFactory());
         for (int i = 0;i < 10 ; i++) {
             exec.execute(new DaemonFromFactory());
+            System.out.println();
         }
         exec.shutdown();
         System.out.println("all daemon started");
