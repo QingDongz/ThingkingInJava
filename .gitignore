@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
+*.iml
 ThingkingInJava.iml
 chapter21/chapter21.iml
 #chapter21/src/main/resources/
